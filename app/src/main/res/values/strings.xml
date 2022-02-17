@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Attendance</string>
+    <string name="heading">Heading</string>
+    <string name="welcome_to_our_attendance_registering_app">Welcome to our Attendance Registering App</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="image_to_be_displayed_here">Image to be displayed here</string>
+</resources>
