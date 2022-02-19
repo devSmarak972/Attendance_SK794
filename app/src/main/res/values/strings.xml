@@ -5,4 +5,15 @@
     <string name="login">LOGIN</string>
     <string name="sign_up">SIGN UP</string>
     <string name="image_to_be_displayed_here">Image to be displayed here</string>
+    <string name="employee_details">Employee Details</string>
+    <string name="please_enter_your_details_below">Please enter your details below</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="name">Name:</string>
+    <string name="designation">Designation:</string>
+    <string name="enter_your_designation">Enter Your Designation</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender:</string>
+    <string name="other">Other</string>
+    <string name="title_activity_maps" />
 </resources>

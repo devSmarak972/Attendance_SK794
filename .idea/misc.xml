@@ -5,7 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.3182291666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30416666666666664" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.30364583333333334" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.3296875" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.46628926595052084" />
       </map>
     </option>
   </component>
