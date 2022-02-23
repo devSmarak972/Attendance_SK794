@@ -54,4 +54,8 @@ public class SignUp extends AppCompatActivity {
             imageview.setImageBitmap(captureImage);
         }
     }
+    public void yourLoc(View v){
+        Intent intent = new Intent(this, MapsActivityYour.class);
+        startActivity(intent);
+    }
 }

@@ -8,14 +8,14 @@
     tools:context=".SignUp">
 
     <androidx.core.widget.NestedScrollView
-        android:layout_width="417dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:fillViewport="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="1.0">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -44,14 +44,14 @@
                 android:text="Office Address:"
                 android:textColor="#3F56BD"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.118"
+                app:layout_constraintHorizontal_bias="0.013"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
             <RadioGroup
                 android:id="@+id/radioGroup"
-                android:layout_width="176dp"
-                android:layout_height="134dp"
+                android:layout_width="159dp"
+                android:layout_height="141dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/textView6">
@@ -60,18 +60,21 @@
                     android:id="@+id/male"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_horizontal|center_vertical"
                     android:text="@string/male" />
 
                 <RadioButton
                     android:id="@+id/female"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:text="@string/female" />
 
                 <RadioButton
                     android:id="@+id/other"
                     android:layout_width="match_parent"
                     android:layout_height="37dp"
+                    android:gravity="center"
                     android:text="@string/other"
                     tools:ignore="TouchTargetSizeCheck" />
             </RadioGroup>
@@ -86,7 +89,7 @@
                 android:textColor="#3F56BD"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toStartOf="@+id/radioGroup"
-                app:layout_constraintHorizontal_bias="0.545"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -94,7 +97,7 @@
                 android:id="@+id/editTextTextPersonName2"
                 android:layout_width="210dp"
                 android:layout_height="39dp"
-                android:layout_marginEnd="52dp"
+                android:layout_marginEnd="24dp"
                 android:layout_marginBottom="36dp"
                 android:autofillHints=""
                 android:ems="10"
@@ -112,12 +115,12 @@
                 android:layout_width="88dp"
                 android:layout_height="19dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="32dp"
+                android:layout_marginTop="28dp"
                 android:gravity="right"
                 android:text="@string/designation"
                 android:textColor="#3F56BD"
                 app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName2"
-                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -186,10 +189,10 @@
                 android:text="Capture"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.427"
+                app:layout_constraintHorizontal_bias="0.407"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView2"
-                app:layout_constraintVertical_bias="0.981" />
+                app:layout_constraintVertical_bias="1.0" />
 
             <ImageView
                 android:id="@+id/imageView2"
@@ -202,6 +205,19 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioGroup"
                 tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:id="@+id/buttonyour"
+                android:layout_width="145dp"
+                android:layout_height="58dp"
+                android:layout_marginStart="132dp"
+                android:layout_marginBottom="16dp"
+                android:onClick="yourLoc"
+                android:text="Your Location"
+                app:layout_constraintBottom_toTopOf="@+id/imageView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toEndOf="@+id/textView7" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
