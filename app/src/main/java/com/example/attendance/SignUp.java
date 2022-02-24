@@ -19,6 +19,8 @@ public class SignUp extends AppCompatActivity {
 
     Button button;
     ImageView imageview;
+    private View v;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,7 +57,13 @@ public class SignUp extends AppCompatActivity {
         }
     }
     public void yourLoc(View v){
+        this.v = v;
         Intent intent = new Intent(this, MapsActivityYour.class);
+        startActivity(intent);
+    }
+    public void gotoAddress(View v){
+        this.v = v;
+        Intent intent = new Intent(this, officeMap.class);
         startActivity(intent);
     }
 }

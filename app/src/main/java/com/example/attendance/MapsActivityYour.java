@@ -152,6 +152,6 @@ public class MapsActivityYour extends FragmentActivity implements OnMapReadyCall
         // Add a marker in Sydney and move the camera
         LatLng loc = new LatLng(latitude,longitude);
         googleMap.addMarker(new MarkerOptions().position(loc).title("Your Location"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(loc,17.0f));
+        googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(loc,17.0f));
     }
 }
