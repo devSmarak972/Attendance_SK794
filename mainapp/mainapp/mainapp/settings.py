@@ -127,9 +127,9 @@ import os
 import cloudinary
 
 cloudinary.config( 
-  cloud_name = "drahfqssg", 
-  api_key = "967797155841393", 
-  api_secret = "zWQcke7GyLftY2qQyKuD6eoGk94" 
+  cloud_name = "cloud_name", 
+  api_key = "api_key", 
+  api_secret = "api_secret" 
 )
 
 MODELS = os.path.join(BASE_DIR, 'ml/models')
